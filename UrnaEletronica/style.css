@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.urna{
+  position: absolute;
+  border: solid 2px;
+  left: 53%;
+  margin-left: -450px;
+  top: 50%;
+  margin-top: -190px;
+  height: 360px;
+  width: 500px;
+}
+
+.telaUrna {
+  border: solid 2px;
+  width: 250px;
+  height: 250px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+
+.botoes{
+  margin: 10px;
+  background-color: black;
+  color: snow;
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+}
+
+.teclaPreta{
+  border: solid 2px;
+  top: 50%;
+  margin-top: -135px;
+  position: absolute;
+  background-color: #444;
+  height: 300px;
+  width: 250px;
+  left: 520px;
+}
+
+.tecladoBaixo{
+  font-size: 11px;
+  position: absolute;
+  color: black;
+  top: 78%;
+  width: 250px;
+  left: 533px;
+}
+
+.branco{
+  height: 40px;
+  width: 75px;
+}
+
+.laranja{
+  height: 40px;
+  width: 75px;
+  background-color: #E67401;
+}
+
+.verde{
+  height: 50px;
+  width: 75px;
+  background-color: green;
+}

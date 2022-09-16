@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrnaEletronica</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Urna Eletrônica</h1>
+        <div class="urna">
+            <p>Número do candidato:</p>
+            <form action="">
+                <input size="1" id="campo1" style="margin-left: 200px;" value="" maxlength="1" type="text" readonly="readonly"/>
+                <input size="1" id="campo2" style="margin-left: 10px;" value="" maxlength="1" type="text" readonly="readonly"/>
+            </form>
+            <img class="telaUrna" id="imagem" src="https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2015/11/03181038/brasao-da-republica.jpg" />
+            
+        <div class="teclaPreta">
+            <button class="botoes" onclick="inserir(1)">1</button>
+            <button class="botoes" onclick="inserir(2)">2</button>
+            <button class="botoes" onclick="inserir(3)">3</button>
+            <button class="botoes" onclick="inserir(4)">4</button>
+            <button class="botoes" onclick="inserir(5)">5</button>
+            <button class="botoes" onclick="inserir(6)">6</button>
+            <button class="botoes" onclick="inserir(7)">7</button>
+            <button class="botoes" onclick="inserir(8)">8</button>
+            <button class="botoes" onclick="inserir(9)">9</button>
+            <button class="botoes" style="margin-left: 95px;" onclick="inserir(0)">0</button>
+        </div>
+
+        <div class="tecladoBaixo">
+            <button class="branco" onclick="branco()">BRANCO</button>
+            <button class="laranja" onclick="corrige()">CORRIGE</button>
+            <button class="verde" onclick="votar()">CONFIRMA</button>
+        </div>
+    </div>
+</body>
+</html>
